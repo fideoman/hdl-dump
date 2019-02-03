@@ -40,6 +40,7 @@ Finally: You just can run shell script in the project folder: `mkrel.sh`. It wil
 	`make XC=win          # for Windows cross-compilation using mingw32`  
 	`make -C gui          # for WineLib compilation (for now doesn't work)`  
 	`make -C gui XC=win   # for GUI cross-compilation using mingw32`
+	NOTE: ON DEBIAN BASED, YOU WILL NEED **sudo apt-get install upx**
 
 * **Mac OS X** or **FreeBSD**: You'll need to have GNU make installed, then  
 	`gmake RELEASE=yes IIN_OPTICAL_MMAP=no`  
