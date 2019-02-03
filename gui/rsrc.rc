@@ -23,9 +23,7 @@
 
 #include "rsrc.h"
 
-#define APSTUDIO_READONLY_SYMBOLS
-#include "afxres.h"
-#undef APSTUDIO_READONLY_SYMBOLS
+#define IDC_STATIC -1
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
 #ifdef _WIN32

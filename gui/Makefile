@@ -77,8 +77,10 @@ endif
 WINDRES = windres
 ifeq ($(XC), win)
   WINDOWS = yes
-  CC = i586-mingw32msvc-gcc
-  WINDRES = i586-mingw32msvc-windres
+  CC = /usr/bin/x86_64-w64-mingw32-gcc
+  GCC = /usr/bin/x86_64-w64-mingw32-gcc
+  LD = /usr/bin/x86_64-w64-mingw32-ld
+  WINDRES = /usr/bin/x86_64-w64-mingw32-windres
 endif
 
 
